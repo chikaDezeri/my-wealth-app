@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
 import type { WealthData } from "../types/wealth";
-import { formatNaira, formatUSD, formatPercent, calculateMetrics } from "../utils/calculations";
-import { Shield, TrendingDown, Scale, AlertTriangle, CheckCircle } from "lucide-react";
+import { formatNaira, formatUSD, calculateMetrics } from "../utils/calculations";
+import { Shield, TrendingDown, AlertTriangle, CheckCircle } from "lucide-react";
 
 interface ArchitectureSummaryProps {
   data: WealthData;

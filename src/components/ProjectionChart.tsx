@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
-import { Asset, Liability } from "../types/wealth";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, Area, AreaChart } from "recharts";
+import type { Asset, Liability } from "../types/wealth";
+import { XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, Area, AreaChart } from "recharts";
 
 interface ProjectionChartProps {
   assets: Asset[];
@@ -116,7 +116,7 @@ export function ProjectionChart({ assets, liabilities, netWorth, years }: Projec
                   <XAxis dataKey="year" stroke="#94a3b8" />
                   <YAxis tickFormatter={formatCurrency} stroke="#94a3b8" />
                   <Tooltip 
-                    formatter={(value: number) => formatCurrency(value)}
+                    formatter={(value: any) => formatCurrency(value)}
                     contentStyle={{ 
                       backgroundColor: '#1e293b', 
                       border: '1px solid #334155',

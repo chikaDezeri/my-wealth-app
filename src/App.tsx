@@ -1,8 +1,5 @@
 import { useState } from "react";
-import { Shield, TrendingDown, Scale, AlertTriangle } from "lucide-react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./components/ui/card";
-import { Input } from "./components/ui/input";
-import { Label } from "./components/ui/label";
+import { Shield } from "lucide-react";
 import { PhaseOne } from "./components/PhaseOne";
 import { PhaseTwo } from "./components/PhaseTwo";
 import { PhaseThree } from "./components/PhaseThree";

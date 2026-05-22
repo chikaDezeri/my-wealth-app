@@ -2,7 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../co
 import { Input } from "../components/ui/input";
 import { Label } from "../components/ui/label";
 import type { WealthData } from "../types/wealth";
-import { formatNaira, formatUSD, calculateMetrics } from "../utils/calculations";
+import { formatUSD, calculateMetrics } from "../utils/calculations";
 import { TrendingDown, TrendingUp, Minus } from "lucide-react";
 
 interface PhaseTwoProps {

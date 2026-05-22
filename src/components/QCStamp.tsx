@@ -1,4 +1,3 @@
-import { Shield } from "lucide-react";
 
 interface QCStampProps {
   size?: 'sm' | 'md' | 'lg';
